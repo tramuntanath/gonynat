@@ -239,3 +239,16 @@ footer {
 .corazon-header:hover {
     transform: scale(1.2) rotate(10deg);
 }
+
+.info-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sol-info {
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
+}
