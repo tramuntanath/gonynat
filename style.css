@@ -235,3 +235,7 @@ footer {
     width: 90px;
     height: auto;
 }
+
+.corazon-header:hover {
+    transform: scale(1.2) rotate(10deg);
+}
