@@ -223,3 +223,15 @@ footer {
     padding: 8px;
   }
 }
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.corazon-header {
+    width: 90px;
+    height: auto;
+}
