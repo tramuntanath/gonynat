@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Trebuchet MS", cursive;
+  background:
+    radial-gradient(circle, #ff00cc 0%, transparent 20%),
+    linear-gradient(45deg, #00ffff, #ff00ff, #ffff00, #00ff66);
+  background-size: 120px 120px, 100% 100%;
+  color: #000;
+}
+
+.pagina {
+  width: 90%;
+  max-width: 900px;
+  margin: 25px auto;
+  background: #ffccff;
+  border: 6px ridge #00ffff;
+  box-shadow: 0 0 25px #ff00ff;
+  padding: 15px;
+}
+
+.marquesina {
+  background: #000;
+  color: #00ff00;
+  font-size: 22px;
+  padding: 8px;
+  border: 3px dashed #ffff00;
+  margin-bottom: 15px;
+}
+
+.cabecera {
+  text-align: center;
+  background: linear-gradient(to bottom, #ffff00, #ff9900);
+  border: 5px outset #ff00ff;
+  padding: 20px;
+}
+
+#titulo {
+  font-size: 52px;
+  color: #ff00ff;
+  text-shadow:
+    3px 3px #00ffff,
+    6px 6px #000;
+  margin: 10px 0;
+  animation: parpadeo 1s infinite alternate;
+}
+
+h2 {
+  color: #0000ff;
+  background: #ffffff;
+  display: inline-block;
+  padding: 8px 15px;
+  border: 3px dotted #ff00ff;
+}
+
+.gif {
+  font-size: 35px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff;
+}
+
+.menu {
+  margin: 20px 0;
+  background: #000080;
+  border: 4px groove #ffffff;
+  padding: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 8px;
+}
+
+.menu a {
+  display: inline-block;
+  background: linear-gradient(to bottom, #ffffff, #00ffff);
+  color: #000080;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 3px outset #ffffff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #ff00ff;
+  color: #ffff00;
+  border-style: inset;
+}
+
+.bloque {
+  background: #ffffff;
+  border: 5px double #ff00ff;
+  margin: 20px 0;
+  padding: 18px;
+  box-shadow: 8px 8px 0 #0000ff;
+}
+
+.bloque h3 {
+  font-size: 30px;
+  color: #ff0000;
+  text-align: center;
+  text-decoration: underline wavy #00ff00;
+  margin-top: 0;
+}
+
+.bloque p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.brillo {
+  color: #ff00ff;
+  font-weight: bold;
+  text-align: center;
+  animation: parpadeo 0.7s infinite alternate;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffcc;
+}
+
+th {
+  background: #000;
+  color: #00ff00;
+  font-size: 20px;
+}
+
+td, th {
+  border: 3px solid #ff00ff;
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #000080;
+}
+
+input,
+select,
+textarea {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 16px;
+  padding: 8px;
+  border: 3px inset #00ffff;
+  background: #ffffcc;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #00ff00, #ffff00);
+  color: #ff00ff;
+  border: 5px outset #ff00ff;
+  padding: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff00ff;
+  color: #ffff00;
+  border-style: inset;
+}
+
+footer {
+  text-align: center;
+  background: #000;
+  color: #00ff00;
+  border: 4px dashed #ffff00;
+  padding: 12px;
+  margin-top: 25px;
+}
+
+.contador {
+  background: #111;
+  display: inline-block;
+  padding: 5px 12px;
+  border: 2px solid #00ff00;
+  font-family: monospace;
+}
+
+@keyframes parpadeo {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0.65;
+    transform: scale(1.03);
+  }
+}
+
+@media (max-width: 600px) {
+  #titulo {
+    font-size: 34px;
+  }
+
+  .menu li {
+    display: block;
+  }
+
+  .pagina {
+    width: 94%;
+    padding: 8px;
+  }
+}
