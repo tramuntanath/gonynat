@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Trebuchet MS", cursive;
+  font-family: "Comic Neue", "Comic Sans MS", cursive;
   background:
     radial-gradient(circle, #ff00cc 0%, transparent 20%),
     linear-gradient(45deg, #00ffff, #ff00ff, #ffff00, #00ff66);
