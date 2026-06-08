@@ -11,8 +11,9 @@ body {
 
 input,
 select,
-textarea {
-  font-family: "Comic Sans MS", cursive;
+textarea,
+button {
+  font-family: inherit;
 }
 
 .pagina {
@@ -757,4 +758,5 @@ footer {
     height: auto;
     flex-shrink: 0;
 }
+
 
