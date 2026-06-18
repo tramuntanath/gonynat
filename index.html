@@ -82,24 +82,28 @@
 
       
         <form
-        action="https://formspree.io/f/xkoeebgo"
-        method="POST"
-        >
+  action="https://formspree.io/f/xkoeebgo"
+  method="POST"
+>
 
-        <label>
-            Escribe tu nombre:
-            <input type="text" name="nombre">
-        </label>
-        <label>
-        ¿A qué vendrás?
-        <select name="asistencia">
-            <option value="Solo comida y tardeo">Solo comida y tardeo</option>
-            <option value="Comida, tardeo y me quedo a dormir">Comida, tardeo y me quedo a dormir</option>
-            <option value="No vengo a la comida, vengo después al tardeo + dormir">No vengo a la comida, vengo después al tardeo + dormir</option>
-            <option value="Solo dormir">Solo dormir</option>
-        </select>
-        </label>
-        <button type="submit">Enviar ✨</button>
+  <label>
+    Escribe tu nombre:
+    <input type="text" name="nombre" required>
+  </label>
+
+  <label>
+    ¿A qué vendrás?
+    <select name="asistencia" required>
+      <option value="" selected disabled>Selecciona una opción</option>
+      <option value="Solo comida y tardeo">Solo comida y tardeo</option>
+      <option value="Comida, tardeo y me quedo a dormir">Comida, tardeo y me quedo a dormir</option>
+      <option value="No vengo a la comida, vengo después al tardeo + dormir">No vengo a la comida, vengo después al tardeo + dormir</option>
+      <option value="Solo dormir">Solo dormir</option>
+    </select>
+  </label>
+
+  <button type="submit">Enviar ✨</button>
+
         </form>
 
     </section>
